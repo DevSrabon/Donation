@@ -26,8 +26,6 @@ h1{
 .text-center{
     text-align: center;
 }
-
-
 .title-top{
     margin-top: 10%;
     line-height: 0.5;
@@ -81,8 +79,7 @@ hr{
     height: 280px;
     font-size: 30px;
     font-weight: 700;
-    color: #707070;
-    
+    color: #707070;  
 }
 .food-box{
     background-color: #eee6e6
@@ -107,12 +104,19 @@ hr{
     margin-top: -8%;
     font-size: 12px;
 }
+.our-partner{
+    background-color: #674c4c36;
+    height: 550px;
+    padding: 1% 0 15%;
+    margin-top: 5%;
+    color: rgb(247, 11, 11);
+}
 .taka-box img{
     width: 80%;
-    height: 70%;
+    height: 50%;
     display: inline-block;
     justify-content: center;
-    padding-top: 15%;
+    padding-top: 23%;
 }
 .form-div{
     display: flex;
@@ -121,9 +125,9 @@ hr{
     padding: 5% 0 5% 0;
     margin: 5% 20% 10% 20%;
 }
-input[type=email], select {
+input[type=email] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 30px;
     margin: 8px 0;
     display: inline-block;
     text-align: left;
@@ -132,17 +136,16 @@ input[type=email], select {
     box-sizing: border-box;
     background-color: #D9D9D9;
 }
-button[type=Submit], select {
-    width: 25%;
+button[type=Submit] {
+    width: 20%;
     background-color: #4CAF50;
     color: white;
     font-weight: 500;
-    font-size: 16px;
-    padding: 13px 28px;
+    font-size: 18px;
+    padding: 11px 0;
     margin: 8px 0;
     border: none;
     border-radius: 0px 5px 5px 0px;
-    cursor: pointer;
 }
 footer{
     background-color: #0B0D17;
